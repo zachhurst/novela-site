@@ -1,17 +1,14 @@
-- name: Dennis Brotzky
+- name: Zach Hurst
   bio: |
-    Written by You. This is where your author bio lives. Share your work, your
-    joys and of course, your Twitter handle.
-  avatar: ./avatars/dennis-brotzky.jpg
+    Curious web tinkerer currently intrigued by JAMstack.
+  avatar: ./avatars/zach-hurst.jpg
   featured: true
   social:
     - name: github
-      url: https://github.com
+      url: https://github.com/zachhurst
     - name: twitter
-      url: https://github.com
+      url: https://twitter.com/zachhurst
     - name: instagram
-      url: https://github.com
-    - name: dribbble
-      url: https://github.com
+      url: https://instagram.com/zhurst
     - name: linkedin
-      url: https://github.com
+      url: https://linkedin.com/in/zhurst
