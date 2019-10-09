@@ -1,16 +1,16 @@
 ---
 title: JAMstack, a Modern Approach to the Web
 author: Zach Hurst
-date: 2019-04-31
+date: 2019-10-08
 hero: ./images/hero.jpg
 excerpt: With the growing community interest in Gatsby, we hope to create more resources that make it easier for anyone to grasp the power of this incredible tool.
 ---
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This post will cover my opinion of JAMstack and the modern trend of micro-frontend meeting micro-services back-end; connected via client-side Javascript and static HTML that's hosted at the edge of the CDN. Serverless, headless, git-centric, progressive web app development following best practices in CI/CD.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This post will cover my opinion of JAMstack and the modern trend of micro-frontend meeting micro-services back-end; all connected via client-side Javascript and static HTML that's hosted at the edge of the CDN. Serverless, headless, git-centric, progressive web app development following best practices in CI/CD.
 
 ## The Great Gatsby JS 
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;In just about 10 minutes-time, I had this [open-source](https://novela.narative.co) blogging app for web downloaded, every dependency properly installed and I was editing React in VS Code: 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;In just about 10 minutes-time I had this [open-source](https://novela.narative.co) blogging app for web downloaded, every dependency properly installed and I was editing React in VS Code: 
 
 <div className="Image__Medium">
   <img
@@ -27,6 +27,14 @@ excerpt: With the growing community interest in Gatsby, we hope to create more r
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;That little estimator at the top that displays "4 min read" was automatically installed when I started. It even includes an animated bar that tracks the reader’s progress through every article that I generate. 
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Updating my bio, avatar, adding new authors, configuring site meta-data, etc. was literally easier than editing a Myspace page. The posts are written in Markdown and Gatsby transforms them to HTML for me at compile time. 
+
+<div className="Image__Small">
+  <img
+    src="./images/edit.jpg"
+    title="Editing Novela"
+    alt="Alt text"
+  />
+</div>
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Readers can automatically choose between a variable width grid or a simpler list style to display each story on my homepage and also toggle between light and dark mode for the entire theme. There's also a copy function at the top of every page that allows the reader to instantly copy the article link to their clipboard. 
 
@@ -50,11 +58,11 @@ excerpt: With the growing community interest in Gatsby, we hope to create more r
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Activating a Mailchimp subscription newsletter, installing Google Analytics and attaching a headless CMS like Contentful only takes a few commands in shell. The plugins are pre-configured and just work. 
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**How is it possible that I can have a fully-functioning**, dynamic **web app** built in React **with key blog functionality,** features like lazy-loading/code splitting, fully customized and ready for CDN publishing in **under an hour?** 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**How is it possible that I can have a fully-functioning**, dynamic **React web app with key blog functionality,** features like lazy-loading/code splitting, fully customized and ready for CDN publishing **in under an hour?** 
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;It's called [Themes](https://www.gatsbyjs.org/docs/themes/) for [Gatsby JS](https://www.gatsbyjs.org/) (one of the many **static, progressive web app generators**). The beauty of JAMstack solutions like Gatsby is that they follow the micro-front end trend which views a website or webapp as a composition of features. Compontentization like this enables independent teams to collaborate on different front-end features that are encapsulated as independent packages and merged together in the end. As opposed to the old monolithic model, micro-frontends empower developers to work independently without concern of breaking the overall system. 
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;In this case a blogging app called Novella was published as a theme and I was able to download, install it and start manipulating the code in minutes. With Gatsby's "component shadowing", I can instantly replace any default component and style it however I want. 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;In this case a blogging app called Novella was published as a theme and I was able to download, install it and start manipulating the code in minutes. With Gatsby's "component shadowing" I can instantly replace any default component and style it however I want. 
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Imagine the power of this style of development inside of a large organization. A marketing team may have different blogs for multiple divisions. By abstracting the data to the GraphQL layer with Gatsby, updating the functionality of the underlying web app becomes as easy as pushing out a simple install package vs. re-building the entire blog from the ground up. All the necessary dependencies are shipped and automatically installed with each theme!
 
